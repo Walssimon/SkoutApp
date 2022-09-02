@@ -19,27 +19,30 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:src="@drawable/imagecrow"/>
+
         <EditText
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/borda"
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/insira_seu_email"
-            android:textColorHint="#C6CDCDCD"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/borda"
             android:drawableEnd="@drawable/ic_baseline_alternate_email"
-            android:inputType="textEmailAddress" />
+            android:hint="@string/insira_seu_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="#C6CDCDCD" />
 
         <EditText
-            android:background="@drawable/borda"
-            android:layout_marginBottom="15dp"
             android:id="@+id/senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="#C6CDCDCD"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/borda"
             android:drawableEnd="@drawable/ic_baseline_lock"
+            android:hint="@string/insira_sua_senha"
             android:inputType="textPassword"
-            android:hint="@string/insira_sua_senha" />
+            android:minHeight="48dp"
+            android:textColorHint="#C6CDCDCD" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +55,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="6dp"
                 android:layout_weight="1"
-                android:text="@string/entrar"></Button>
+                android:text="@string/entrar"
+                tools:ignore="TouchTargetSizeCheck"></Button>
 
             <Button
                 android:id="@+id/sair"
@@ -60,7 +64,8 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="6dp"
                 android:layout_weight="1"
-                android:text="@string/sair"></Button>
+                android:text="@string/sair"
+                tools:ignore="TouchTargetSizeCheck"></Button>
         </LinearLayout>
     </LinearLayout>
 
