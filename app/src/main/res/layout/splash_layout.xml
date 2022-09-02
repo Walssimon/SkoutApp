@@ -14,12 +14,12 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/imagecrow"
+        android:src="@drawable/imagecrow"/>
 
 <ProgressBar
     android:id="@+id/prbsplash"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_below="@+id/imagecrow"
-    android:backgroundTint="@color/white"
+    android:backgroundTint="@color/white"/>
 </LinearLayout>

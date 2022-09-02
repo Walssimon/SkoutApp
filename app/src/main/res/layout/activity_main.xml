@@ -18,7 +18,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
-            android:src="@drawable/imagecrow"
+            android:src="@drawable/imagecrow"/>
         <EditText
             android:layout_marginBottom="15dp"
             android:background="@drawable/borda"
