@@ -15,6 +15,13 @@
         android:textColor="#111"
         android:textSize="30dp"/>
 
+    <Button
+        android:id="@+id/voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="Voltar"/>
 
 
 </LinearLayout>
