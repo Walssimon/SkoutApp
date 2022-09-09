@@ -30,7 +30,8 @@
             android:hint="@string/insira_seu_email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
-            android:textColorHint="#C6CDCDCD" />
+            android:textColorHint="#C6CDCDCD"
+            android:textColor="@color/white"/>
 
         <EditText
             android:id="@+id/senha"
@@ -42,7 +43,8 @@
             android:hint="@string/insira_sua_senha"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            android:textColorHint="#C6CDCDCD" />
+            android:textColorHint="#C6CDCDCD"
+            android:textColor="@color/white"/>
 
         <LinearLayout
             android:layout_width="match_parent"
