@@ -16,8 +16,6 @@ public class MenuPrincipalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_principal_layout);
 
-        btnvoltar = findViewById(R.id.voltar);
-
         btnvoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
